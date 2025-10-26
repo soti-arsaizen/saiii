@@ -26,7 +26,7 @@ def get_student_info():
     age = request.args.get('age', 'N/A')
 
     return jsonify({
-        "name": Sai Zen,
+        "name": "Sai Zen",
         "grade": 15,
         "bmi": bmi,
         "address": Salngan Passi City,
